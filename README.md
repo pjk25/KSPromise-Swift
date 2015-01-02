@@ -53,7 +53,7 @@ future.onComplete() { (value) in
         # workaround because Swift can not compile
         # enums with generic types
         println(wrapper.value)
-    case .Failue(let error):
+    case .Failure(let error):
         ... handle error
     }
 }
